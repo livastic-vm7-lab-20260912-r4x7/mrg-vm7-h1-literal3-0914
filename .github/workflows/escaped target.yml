@@ -1,0 +1,8 @@
+name: Escaped-space target
+on:
+  workflow_dispatch:
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo escaped-baseline
